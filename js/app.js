@@ -110,8 +110,8 @@ function initMap() {
 						infowindow.marker = null;
 					});//closer addListener
 				}//closer if			
-				var clientId = "OTLZQ3THFDJWISHIU5ARYI2LYYJ1XULFFBSJJUESY2VOSA2O";
-			    var clientSecret = "3FJPSXAGT0OEDKENUCFR13EO1HO5NRMBL4UGNLR0Z1D5XNXY";
+				var clientId = "YOURCLIENTID";
+			    var clientSecret = "YOURCLIENTSECRETS";
 			    var urlF = "https://api.foursquare.com/v2/venues/search?&near=san%20juan&query=" + marker.title + "&limit=1&client_id="+ clientId +"&client_secret="+ clientSecret +"&v=20180124";
 			    var infoContent;
 			    var infoContenturl = "<div><a href='https://foursquare.com/v/" + infoContent + "'>" +"Click here" +"</a></div>";		    		    	   
